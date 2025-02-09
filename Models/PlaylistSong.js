@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { v4 as uuidv4 } from "uuid";
 
+<<<<<<< HEAD
 const playlistSongSchema = new mongoose.Schema({
   id: {
     type: String,
@@ -21,3 +22,9 @@ const playlistSongSchema = new mongoose.Schema({
 
 const PlaylistSong = mongoose.model("PlaylistSong", playlistSongSchema);
 export default PlaylistSong;
+=======
+
+const playlistSongSchema = new mongoose.Schema({
+    id:
+})
+>>>>>>> yassine/Song-model
